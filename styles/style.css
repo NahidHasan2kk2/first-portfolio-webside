@@ -129,7 +129,8 @@
 }
 
 .about-title,
-.cards-title {
+.cards-title,
+.resume-title {
  font-size: 35px;
  font-weight: bold;
  color: #181818;
@@ -194,4 +195,55 @@
  font-weight: bold;
  padding: 30px 0 20px 0;
  color: #181818;
+}
+
+.resume-container {
+
+ padding: 130px 277px 100px 230px;
+}
+
+.resume-contents {
+ display: flex;
+ justify-content: space-around;
+
+}
+
+.resume-contents h2 {
+
+ font-size: 30px;
+ font-weight: bold;
+}
+
+.resume-content {
+ width: 511px;
+ height: 200px;
+ padding-bottom: 30px;
+}
+
+.resume-content h3 {
+ font-size: 25px;
+ font-weight: bold;
+ padding-top: 30px;
+}
+
+.resume-content h5 {
+ font-size: 20px;
+ font-weight: 900;
+ padding: 10px 0 10px 0;
+}
+
+
+hr {
+
+ width: 558px;
+}
+
+.resume-container .resume-title {
+ text-align: center;
+ padding-bottom: 113px;
+
+}
+
+.resume-btn {
+ text-align: center;
 }
